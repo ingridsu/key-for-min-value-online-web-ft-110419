@@ -4,5 +4,5 @@ snacks = {:hotcheetos => 20, :hotfries => 10, :hotnuts => 3}
 def key_for_min_value(snacks)
   snacks.collect do |hotfood,bags|
     food
-
+key_for_min_value.collect
 end

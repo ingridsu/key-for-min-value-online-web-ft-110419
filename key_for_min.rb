@@ -3,6 +3,6 @@
 snacks = {:hotcheetos => spicy, :brownies => sweet, :nuts => salty}
 def key_for_min_value(snacks)
   snacks.collect do |food,flavor|
-    flavor
+    food
 
 end
